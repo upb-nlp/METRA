@@ -1,0 +1,14 @@
+# Play Dialogue Addressee Analyzer Requirements
+
+# Core dependencies
+vllm>=0.6.0
+torch>=2.0.0
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Optional dependencies for better performance and monitoring
+psutil>=5.9.0
+tqdm>=4.65.0
+
+# For CUDA support (if available)
+# Install PyTorch with CUDA from https://pytorch.org/get-started/locally/
